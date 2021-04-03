@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00a6a3"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:text="TÜRKİYE GÜNLÜK KORONAVİRÜS TABLOSU"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/infecteddd"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="VAKA SAYISI:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="TEST SAYISI:"
+        android:id="@+id/testeddd"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/deceaseddd"
+        android:text="VEFAT SAYISI:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/recovereddd"
+        android:text="İYLEŞEN SAYISI:"/>
+
+    <TextView
+        android:id="@+id/lastUpdatedAtApifydd"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:text="GÜN:"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        android:src="@drawable/resim1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="siteyegit"
+        android:text="Siteyi ziyaret et" />
+
+
+</LinearLayout>
